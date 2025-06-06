@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Componentes y armado de la PC</title>
+  
+<style>
+  body {
+       background-image: url("https://i.imgur.com/C5uwhl9.jpeg");
+      background-attachment: fixed; 
+      font-family: Arial, sans-serif;
+    }
+    .componente {
+      background-color: #e5e6ff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px auto;
+      width:80%;
+    }
+    .componente img {
+      float: left;
+      margin-right: 25px;
+      border-radius: 8px;
+      width: 300px;
+      height: auto;
+    }
+    .componente p, .componente ul {
+      font-size: 18px;
+      color: #333;
+    }
+    .componente ul {
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+  
+    h1 {
+      color: #d7d9fd;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 24px;
+      color: darkblue;
+    }
+
+    small{
+      color: #333;
+      text-align: left;
+    }
+    video{
+      border-radius: 15px;
+      display: block;
+      margin: 10px auto;
+      width: 80%;
+      height: 100%;
+    }
+
+  </style>
+</head>
+    
+<body>
+
+  <h1>Hardware de una PC</h1>
+
+  <div class="componente">
+    <h3>
+    <a href="microprocesadores.html">🧠 Microprocesadores</a></h3>
+
+    <img src="https://i.imgur.com/ZXtGw38.jpeg" alt="Imagen de microprocesador">
+    <p>
+      Es el cerebro de la computadora. Ejecuta instrucciones y procesa datos de todos los programas.
+    </p>
+    <ul>
+      <li>Los más conocidos son Intel y AMD.</li>
+      <li>Se coloca en un zócalo especial en la placa base.</li>
+      <li>Genera calor y necesita un disipador y ventilador.</li>
+      <li>Cuantos más núcleos, mayor capacidad de multitarea.</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+
+  <div class="componente">
+    <h3>
+    <a href="ram.html">🎞️ Memoria RAM</a></h3>
+    <h3></h3>
+    <img src="https://i.imgur.com/FV5UdJZ.jpeg" alt="Imagen de memoria RAM">
+    <p>
+      Memoria temporal donde se cargan los datos que la PC necesita mientras está encendida.
+    </p>
+    <ul>
+      <li>Es volátil: se borra al apagar la computadora.</li>
+      <li>Cuanta más RAM, más tareas simultáneas se pueden hacer.</li>
+      <li>Tipos comunes: DDR3, DDR4 y DDR5.</li>
+      <li>Se conecta en módulos a la placa madre.</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+
+  <div class="componente">
+    <h3>
+      <a href="placa.html">🎮 Placa de video</a></h3>
+    <img src="https://i.imgur.com/KAkLHzo.jpeg" alt="Imagen de placa de video">
+    <p>
+      Procesa y genera gráficos. Es esencial para juegos, diseño gráfico y edición de video.
+    </p>
+    <ul>
+      <li>Puede ser integrada o dedicada.</li>
+      <li>Marcas populares: NVIDIA, RX, AMD, entre otros.</li>
+      <li>Incluye su propia memoria (VRAM).</li>
+      <li>Se conecta a la placa base mediante ranura PCI Express.</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+
+  <div class="componente">
+    <h3><a href="hdd.html">💿 Disco duro</a></h3>
+    <img src="https://i.imgur.com/fy1sqB7.jpeg" alt="Imagen de dico duro">
+    <p>
+      Almacena datos de forma permanente (sistema operativo, programas, archivos).
+    </p>
+    <ul>
+      <li>Más susceptible a daños físicos por golpes o caídas.</li>
+      <li>Se conecta a la placa base mediante un cable SATA.</li>
+      <li>Tiene gran capacidad</li>
+      <li>Utiliza platos giratorios y un cabezal lector (tecnología magnética).</li>
+      <li>Velocidad de lectura/escritura más lenta.</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+
+  <div class="componente">
+    <h3>
+      <a href="ssd.html">⚡ SSD</a></h3>
+    <img src="https://i.imgur.com/fOo7pNU.png">
+    <p>
+      Almacena datos y programas. Mejora el rendimiento general del sistema, acelerando el arranque, la carga de aplicaciones y la transferencia de archivos.
+    </p>
+    <ul>
+      <li>Almacena datos en chips de memoria flash, sin partes móviles.</li>
+      <li>Mucho más rápido que un disco duro (HDD), ideal para sistema y programas.</li>
+      <li>Se conecta a la placa base mediante puertos SATA o NVMe (M.2).</li>
+      <li>Marcas populares: Samsung, Kingston, Crucial, Western Digital.</li>
+      <li>Silencioso y con menor consumo energético.</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+
+  <div class="componente">
+    <h3>
+      <a href="fuente.html">🔌 Fuente de alimentación</a></h3>
+    <img src="https://i.imgur.com/yTOhSAj.jpeg" alt="Imagen de fuente">
+    <p>
+      Se utiliza para convertir la corriente alterna en corriente continua para que todos los componentes de la pc reciban la energía adecuada.
+    </p>
+    <ul>
+      <li>Permite el funcionamiento eficiente de los equipos.</li>
+      <li>Distribuye diferentes voltajes necesarios para diferentes partes.</li>
+      <li>Convierte CA a CC</li>
+    </ul>
+    <br style="clear: both;">
+    <small>Presionar el nombre para ver su colocación en la mother</small>
+  </div>
+<br></br>
+<br></br>
+
+  <h1>Colocación de cables</h1>
+  <video controls >
+    <source src="videos/placa-y-cables.mp4" type="video/mp4">
+     
+  </video>
+
+</body>
+</html>
